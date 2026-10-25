@@ -87,7 +87,7 @@
     }
     var A = FC.analyze(races, notup, fc, sims, sFile);
     races = A.races;
-    var problems = A.problems, useP = A.useP, useI = A.useI, S = A.S, asof = A.asof, demNotUp = A.demNotUp;
+    var problems = A.problems, useP = false, useI = A.useI, S = A.S, asof = A.asof, demNotUp = A.demNotUp;
     if (A.notes.length) {
       $("notes").innerHTML = "<strong>Note.</strong> " + A.notes.join(" ");
       $("notes").hidden = false;

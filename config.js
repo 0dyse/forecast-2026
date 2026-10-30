@@ -25,8 +25,7 @@ window.SITE_CONFIG = {
   //   "A fundamentals-only model (no polls). Each race's predicted Democratic share combines the district's partisan lean, incumbency, and a forecast of the national House vote from presidential approval, gas prices, income and the midterm penalty.",
   //   "Uncertainty combines one national error shared by every race with a separate error for each race. Seat totals come from 10,000 simulated elections.",
   method: [
-    "",
-    ""
+    "The forecast is built from a weighted least-squares regression model trained on approximately 2,950 contested House and Senate races from the 2012–2024 federal elections. The relative position of each race—how much more or less Democratic a seat votes compared to the country as a whole—is determined by structural and dynamic features. These include district- and state-level partisanship (PVI), district and state demographics (college-educated, white non-college, Hispanic, and Black population shares), candidate incumbency and seniority, campaign fundraising (FEC receipts), expert race ratings (Cook, Inside Elections, and Sabato), and race-specific polling averages. To account for shifting political coalitions, recency weights are applied so that recent cycles carry more weight in the fit (controlled by `RECENCY_DECAY` = 0.75)."
   ],
 
   // Your data files. Leave these alone unless you renamed your files.
